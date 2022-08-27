@@ -10,8 +10,8 @@
   </head>
   <body>
     <input type="file" id="input" />
-    <input type="file" id="inputdata" />
     <table id="tbl-data"></table>
+    <input type="file" id="inputdata" />
     <table id="table-data"></table>
     <button type="button" name="button">Match</button>
     <script>
@@ -28,7 +28,6 @@
             if (i > 0) {
               let table = document.getElementById("tbl-data");
               generateTableRows(table, row);
-
               i++;
             }
           });
